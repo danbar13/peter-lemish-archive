@@ -89,12 +89,6 @@ export const Hero = () => {
                   {/* Decorative background grid pattern */}
                   <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
 
-                  {/* Top Memorial Badge */}
-                  <div className="relative z-10 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs font-bold tracking-widest uppercase">
-                    <Award className="w-3.5 h-3.5" aria-hidden="true" />
-                    <span>In Memoriam & Praxis</span>
-                  </div>
-
                   {/* Center Dignified Portrait */}
                   <div className="relative z-10 flex flex-col items-center my-auto w-full">
                     <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-amber-400 p-1 shadow-2xl bg-gradient-to-b from-amber-300 via-amber-400 to-amber-600 mb-4 overflow-hidden group">
