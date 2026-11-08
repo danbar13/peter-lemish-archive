@@ -97,78 +97,105 @@ export const MediaArchive = () => {
             id="panel-recordings"
             role="tabpanel"
             aria-labelledby="tab-recordings"
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="space-y-8"
           >
-            {videoList.map((vid) => (
-              <article
-                key={vid.id}
-                className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group"
-              >
-                <div>
-                  {/* Thumbnail Container */}
-                  <div className="relative aspect-16/9 overflow-hidden bg-slate-900">
-                    <img
-                      src={vid.thumbnail || 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80'}
-                      alt=""
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90"
-                    />
-                    {/* Duration or Date badge */}
-                    {(vid.duration || vid.date) && (
-                      <span className="absolute bottom-3 end-3 px-2.5 py-1 bg-black/80 text-white rounded-md text-xs font-mono font-semibold flex items-center gap-1 backdrop-blur-xs">
-                        <Clock className="w-3 h-3 text-amber-400" aria-hidden="true" />
-                        {vid.duration || vid.date}
-                      </span>
-                    )}
+            <div className={`grid grid-cols-1 ${videoList.length > 1 ? 'md:grid-cols-2 lg:grid-cols-3' : 'md:grid-cols-2 max-w-4xl mx-auto'} gap-8`}>
+              {videoList.map((vid) => (
+                <article
+                  key={vid.id}
+                  className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group"
+                >
+                  <div>
+                    {/* Thumbnail Container */}
+                    <div className="relative aspect-16/9 overflow-hidden bg-slate-900">
+                      <img
+                        src={vid.thumbnail}
+                        alt=""
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90"
+                      />
+                      {/* Duration or Date badge */}
+                      {(vid.duration || vid.date) && (
+                        <span className="absolute bottom-3 end-3 px-2.5 py-1 bg-black/80 text-white rounded-md text-xs font-mono font-semibold flex items-center gap-1 backdrop-blur-xs">
+                          <Clock className="w-3 h-3 text-amber-400" aria-hidden="true" />
+                          {vid.duration || vid.date}
+                        </span>
+                      )}
 
-                    {/* Big Center Play Trigger */}
+                      {/* Big Center Play Trigger */}
+                      <button
+                        type="button"
+                        onClick={() => setSelectedVideo(vid)}
+                        aria-label={`${data.playVideo || (isRTL ? 'הפעל וידאו' : 'Play Video')}: ${vid.title}`}
+                        className="absolute inset-0 m-auto w-14 h-14 rounded-full bg-blue-900/90 text-amber-400 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:bg-blue-900 transition-all focus-visible:ring-4 focus-visible:ring-white focus-visible:outline-none"
+                      >
+                        <Play className="w-6 h-6 fill-current ms-0.5" aria-hidden="true" />
+                      </button>
+                    </div>
+
+                    {/* Card Body */}
+                    <div className="p-6">
+                      {(vid.event || vid.date) && (
+                        <span className="text-xs font-bold text-amber-700 block mb-1">
+                          {vid.event || vid.date}
+                        </span>
+                      )}
+                      <h3 className="text-lg font-extrabold text-blue-950 group-hover:text-blue-900 transition-colors line-clamp-2 leading-snug">
+                        {vid.title}
+                      </h3>
+                      <p className="mt-2 text-slate-600 text-sm leading-relaxed line-clamp-3">
+                        {vid.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Card Footer */}
+                  <div className="px-6 pb-6 pt-2 border-t border-slate-100 flex items-center justify-between">
+                    <div className="flex flex-wrap gap-1.5">
+                      {vid.tags && vid.tags.slice(0, 3).map((tag, tagIdx) => (
+                        <span
+                          key={tagIdx}
+                          className="px-2 py-0.5 bg-slate-100 text-slate-600 rounded-md text-[11px] font-semibold"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                     <button
                       type="button"
                       onClick={() => setSelectedVideo(vid)}
-                      aria-label={`${data.playVideo || 'הפעל וידאו'}: ${vid.title}`}
-                      className="absolute inset-0 m-auto w-14 h-14 rounded-full bg-blue-900/90 text-amber-400 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:bg-blue-900 transition-all focus-visible:ring-4 focus-visible:ring-white focus-visible:outline-none"
+                      className="text-xs font-bold text-blue-900 hover:text-amber-700 p-1 focus-visible:ring-2 focus-visible:ring-blue-600 rounded-md"
                     >
-                      <Play className="w-6 h-6 fill-current ms-0.5" aria-hidden="true" />
+                      {data.playVideo || (isRTL ? 'הפעל וידאו' : 'Play Video')}
                     </button>
                   </div>
+                </article>
+              ))}
 
-                  {/* Card Body */}
-                  <div className="p-6">
-                    {(vid.event || vid.date) && (
-                      <span className="text-xs font-bold text-amber-700 block mb-1">
-                        {vid.event || vid.date}
-                      </span>
-                    )}
-                    <h3 className="text-lg font-extrabold text-blue-950 group-hover:text-blue-900 transition-colors line-clamp-2 leading-snug">
-                      {vid.title}
-                    </h3>
-                    <p className="mt-2 text-slate-600 text-sm leading-relaxed line-clamp-3">
-                      {vid.description}
-                    </p>
+              {/* Callout Card to contribute recordings */}
+              <div className="bg-gradient-to-br from-blue-900/10 via-amber-500/10 to-transparent border-2 border-dashed border-amber-500/40 rounded-3xl p-6 sm:p-8 flex flex-col justify-between text-start">
+                <div className="space-y-3">
+                  <div className="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-700 flex items-center justify-center">
+                    <Video className="w-6 h-6 text-amber-600" aria-hidden="true" />
                   </div>
+                  <h3 className="text-lg font-bold text-slate-950">
+                    {isRTL ? 'תרומת תיעוד והקלטות לארכיון' : 'Contribute Archival Recordings'}
+                  </h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">
+                    {isRTL
+                      ? 'יש ברשותכם הקלטת וידאו, הרצאה או ראיון מוקלט עם ד"ר פיטר למיש שאינם מופיעים כאן? צוות הארכיון ישמח לקבל את החומרים, להמירם ולשלבם בגלריה הציבורית.'
+                      : 'Do you possess recorded lectures, conference panels, or video interviews featuring Dr. Peter Lemish? We warmly welcome community and academic contributions to expand this living digital archive.'}
+                  </p>
                 </div>
-
-                {/* Card Footer */}
-                <div className="px-6 pb-6 pt-2 border-t border-slate-100 flex items-center justify-between">
-                  <div className="flex flex-wrap gap-1.5">
-                    {vid.tags && vid.tags.slice(0, 2).map((tag, tagIdx) => (
-                      <span
-                        key={tagIdx}
-                        className="px-2 py-0.5 bg-slate-100 text-slate-600 rounded-md text-[11px] font-semibold"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setSelectedVideo(vid)}
-                    className="text-xs font-bold text-blue-900 hover:text-amber-700 p-1 focus-visible:ring-2 focus-visible:ring-blue-600 rounded-md"
+                <div className="pt-6">
+                  <a
+                    href="#contact"
+                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold bg-blue-950 text-white hover:bg-blue-900 transition-colors"
                   >
-                    {data.playVideo || 'הפעל וידאו'}
-                  </button>
+                    <span>{isRTL ? 'פנייה לצוות הארכיון' : 'Contact Archive Team'}</span>
+                  </a>
                 </div>
-              </article>
-            ))}
+              </div>
+            </div>
           </div>
         )}
 
