@@ -224,7 +224,10 @@ export const siteContent = {
           tags: ['חינוך אזרחי', 'דמוקרטיה', 'פדגוגיה ביקורתית', 'ישראל'],
           citation:
             'Lemish, P. (2003). Civic and citizenship education in Israel. Cambridge Journal of Education, 33(1), 53-72.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-1-civic-and-citizenship-education.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Civic_and_Citizenship_Education_in_Israel_2003.pdf',
+          externalUrl: 'https://doi.org/10.1080/0305764032000064640',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '20 עמ\'',
         },
         {
@@ -242,7 +245,10 @@ export const siteContent = {
           tags: ['פתרון סכסוכים', 'חינוך לשלום', 'ילדים ומדיה', 'טלוויזיה איכותית'],
           citation:
             'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In D. Lemish, M. Götz, & B. Dervin (Eds.), Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-2-conflict-resolution-children-tv.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Conflict_Resolution_Through_Quality_Television_2007.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Developing+children%27s+understanding+of+conflict+resolution+through+quality+television+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '22 עמ\'',
         },
         {
@@ -260,7 +266,10 @@ export const siteContent = {
           tags: ['עמדה טרנסגרסיבית', 'תיאוריה ביקורתית', 'סכסוך ישראלי-ערבי', 'חציית גבולות'],
           citation:
             'Lemish, P. (2011). The Transgressive Posture: Insights from Nano Discourse into the Ontology of Being a Transgressor. Academic Quarter, 3, 17-31.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-3-the-transgressive-posture.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_The_Transgressive_Posture_Akademisk_Kvarter_2011.pdf',
+          externalUrl: 'https://journals.aau.dk/index.php/ak/article/view/2956',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '15 עמ\'',
         },
         {
@@ -278,7 +287,10 @@ export const siteContent = {
           tags: ['נעם למיש', 'תקשורת פוליטית', 'מוזיקה ודיאלוג', 'ישראלים ואיראנים'],
           citation:
             'Lemish, P., Lemish, N., Sabet, P., & Deutsch, D. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-4-iranians-israelis-make-music.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Iranians_and_Israelis_Make_Music_Not_War_2017.pdf',
+          externalUrl: 'https://doi.org/10.4018/978-1-5225-1986-7.ch007',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '22 עמ\'',
         },
         {
@@ -296,7 +308,10 @@ export const siteContent = {
           tags: ['דפנה למיש', 'אוריינות מדיה', 'רפורמה בחינוך', 'פדגוגיה ביקורתית'],
           citation:
             'Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-5-media-literacy-in-israel.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Media_Literacy_in_Israel_2018.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=A+much+debated+consensus%3A+Media+literacy+in+Israel+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '16 עמ\'',
         },
         {
@@ -314,7 +329,10 @@ export const siteContent = {
           tags: ['חברה אזרחית', 'תקשורת ביקורתית', 'ניהול מדיה', 'מדיניות ציבורית'],
           citation:
             'Lemish, P., & Caringer, K. (2012). The civil society organization media manager as critical communicator. Nordicom Review, 33(Special Issue), 189-203.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-6-cso-media-manager.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_CSO_Media_Manager_as_Critical_Communicator_2012.pdf',
+          externalUrl: 'https://doi.org/10.2478/nor-2013-0036',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '15 עמ\'',
         },
         {
@@ -332,7 +350,10 @@ export const siteContent = {
           tags: ['דבורה פלדש', 'פדגוגיה ביקורתית', 'בעיות חברתיות', 'פרקסיס חינוכי'],
           citation:
             'Lemish, P., & Feldash, D. (1997). Exposing social problems by means of critical pedagogy. Radical Teacher / Studies in Education, 129-140.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-7-exposing-social-problems-pedagogy.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Exposing_Social_Problems_Critical_Pedagogy_1997.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Exposing+social+problems+by+means+of+critical+pedagogy+Peter+Lemish+Dvora+Feldash',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '12 עמ\'',
         },
         {
@@ -350,7 +371,10 @@ export const siteContent = {
           tags: ['הערכת תוכניות', 'פרקסיס חינוכי', 'יחסי כוח ושליטה', 'פיתוח תוכניות לימוד'],
           citation:
             'Lemish, P. (1988). Evaluation reflection power-control and the praxis orientation to school-based program development. Studies in Educational Evaluation, 14(3), 341-359.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-8-evaluation-reflection-power-control.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Evaluation_Reflection_Power_Control_1988.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Evaluation+reflection+power-control+and+the+praxis+orientation+to+school-based+program+development+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '19 עמ\'',
         },
         {
@@ -368,7 +392,10 @@ export const siteContent = {
           tags: ['זהות תרבותית', 'הטמעה', 'החוויה היהודית באמריקה', 'מחקר איכותני'],
           citation:
             'Lemish, P. (1981). Hanukah bush: The Jewish experience in America. Theory into Practice, 20(1), 26-34.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-9-hanukah-bush-jewish-experience.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Hanukah_Bush_Jewish_Experience_in_America_1981.pdf',
+          externalUrl: 'https://doi.org/10.1080/00405848109542924',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '9 עמ\'',
         },
       ],
@@ -822,7 +849,10 @@ export const siteContent = {
           tags: ['Civic Education', 'Citizenship', 'Israel', 'Democratic Pedagogy'],
           citation:
             'Lemish, P. (2003). Civic and citizenship education in Israel. Cambridge Journal of Education, 33(1), 53-72.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-1-civic-and-citizenship-education.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Civic_and_Citizenship_Education_in_Israel_2003.pdf',
+          externalUrl: 'https://doi.org/10.1080/0305764032000064640',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '20 pp.',
         },
         {
@@ -840,7 +870,10 @@ export const siteContent = {
           tags: ['Conflict Resolution', 'Peace Education', 'Children and Media', 'Television Framing'],
           citation:
             'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In D. Lemish, M. Götz, & B. Dervin (Eds.), Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-2-conflict-resolution-children-tv.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Conflict_Resolution_Through_Quality_Television_2007.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Developing+children%27s+understanding+of+conflict+resolution+through+quality+television+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '22 pp.',
         },
         {
@@ -858,7 +891,10 @@ export const siteContent = {
           tags: ['Transgression', 'Conflict Transformation', 'Critical Theory', 'Israel-Arab Conflict'],
           citation:
             'Lemish, P. (2011). The Transgressive Posture: Insights from Nano Discourse into the Ontology of Being a Transgressor. Academic Quarter, 3, 17-31.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-3-the-transgressive-posture.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_The_Transgressive_Posture_Akademisk_Kvarter_2011.pdf',
+          externalUrl: 'https://journals.aau.dk/index.php/ak/article/view/2956',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '15 pp.',
         },
         {
@@ -876,7 +912,10 @@ export const siteContent = {
           tags: ['Noam Lemish', 'Political Communication', 'Engaged Musicking', 'Intercultural Dialogue'],
           citation:
             'Lemish, P., Lemish, N., Sabet, P., & Deutsch, D. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-4-iranians-israelis-make-music.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Iranians_and_Israelis_Make_Music_Not_War_2017.pdf',
+          externalUrl: 'https://doi.org/10.4018/978-1-5225-1986-7.ch007',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '22 pp.',
         },
         {
@@ -894,7 +933,10 @@ export const siteContent = {
           tags: ['Dafna Lemish', 'Media Literacy', 'Critical Pedagogy', 'Educational Reform'],
           citation:
             'Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-5-media-literacy-in-israel.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Media_Literacy_in_Israel_2018.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=A+much+debated+consensus%3A+Media+literacy+in+Israel+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '16 pp.',
         },
         {
@@ -912,7 +954,10 @@ export const siteContent = {
           tags: ['Civil Society', 'Critical Communication', 'Media Management', 'Public Policy'],
           citation:
             'Lemish, P., & Caringer, K. (2012). The civil society organization media manager as critical communicator. Nordicom Review, 33(Special Issue), 189-203.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-6-cso-media-manager.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_CSO_Media_Manager_as_Critical_Communicator_2012.pdf',
+          externalUrl: 'https://doi.org/10.2478/nor-2013-0036',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '15 pp.',
         },
         {
@@ -930,7 +975,10 @@ export const siteContent = {
           tags: ['Dvora Feldash', 'Critical Pedagogy', 'Social Problems', 'Educational Praxis'],
           citation:
             'Lemish, P., & Feldash, D. (1997). Exposing social problems by means of critical pedagogy. Radical Teacher / Studies in Education, 129-140.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-7-exposing-social-problems-pedagogy.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Exposing_Social_Problems_Critical_Pedagogy_1997.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Exposing+social+problems+by+means+of+critical+pedagogy+Peter+Lemish+Dvora+Feldash',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '12 pp.',
         },
         {
@@ -948,7 +996,10 @@ export const siteContent = {
           tags: ['Program Evaluation', 'Educational Praxis', 'Power-Control', 'Curriculum Design'],
           citation:
             'Lemish, P. (1988). Evaluation reflection power-control and the praxis orientation to school-based program development. Studies in Educational Evaluation, 14(3), 341-359.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-8-evaluation-reflection-power-control.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Evaluation_Reflection_Power_Control_1988.pdf',
+          externalUrl: 'https://scholar.google.com/scholar?q=Evaluation+reflection+power-control+and+the+praxis+orientation+to+school-based+program+development+Peter+Lemish',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '19 pp.',
         },
         {
@@ -966,7 +1017,10 @@ export const siteContent = {
           tags: ['Cultural Identity', 'Assimilation', 'American Jewish Experience', 'Qualitative Inquiry'],
           citation:
             'Lemish, P. (1981). Hanukah bush: The Jewish experience in America. Theory into Practice, 20(1), 26-34.',
-          pdfUrl: '#',
+          pdfUrl: '/files/publications/pub-9-hanukah-bush-jewish-experience.pdf',
+          pdfFileName: 'Dr_Peter_Lemish_Hanukah_Bush_Jewish_Experience_in_America_1981.pdf',
+          externalUrl: 'https://doi.org/10.1080/00405848109542924',
+          notebookLmUrl: 'https://notebook.google.com/notebook/b5f6877e-c233-44d3-966a-ff6ee36344fa',
           pages: '9 pp.',
         },
       ],

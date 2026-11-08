@@ -12,6 +12,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Sparkles,
+  Download,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { PublicationDetailModal } from './PublicationDetailModal';
@@ -264,19 +265,31 @@ export const PublicationsHub = () => {
                     )}
                   </button>
 
-                  <button
-                    type="button"
-                    onClick={(e) => handleCopy(item, e)}
-                    aria-label={`${data.copyCitation}: ${item.title}`}
-                    className="p-2 text-slate-500 hover:text-blue-900 hover:bg-slate-100 rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:outline-none relative"
-                    title={data.copyCitation}
-                  >
-                    {copiedId === item.id ? (
-                      <Check className="w-4 h-4 text-emerald-600" aria-hidden="true" />
-                    ) : (
-                      <Copy className="w-4 h-4" aria-hidden="true" />
-                    )}
-                  </button>
+                  <div className="flex items-center gap-1">
+                    <a
+                      href={item.pdfUrl}
+                      download={item.pdfFileName || 'Dr_Peter_Lemish_Publication.pdf'}
+                      aria-label={`${data.downloadPdf || 'PDF'}: ${item.title}`}
+                      title={data.downloadPdf || 'Download PDF'}
+                      className="p-2 text-slate-500 hover:text-amber-700 hover:bg-amber-50 rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:outline-none"
+                    >
+                      <Download className="w-4 h-4 text-amber-700" aria-hidden="true" />
+                    </a>
+
+                    <button
+                      type="button"
+                      onClick={(e) => handleCopy(item, e)}
+                      aria-label={`${data.copyCitation}: ${item.title}`}
+                      className="p-2 text-slate-500 hover:text-blue-900 hover:bg-slate-100 rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:outline-none relative"
+                      title={data.copyCitation}
+                    >
+                      {copiedId === item.id ? (
+                        <Check className="w-4 h-4 text-emerald-600" aria-hidden="true" />
+                      ) : (
+                        <Copy className="w-4 h-4" aria-hidden="true" />
+                      )}
+                    </button>
+                  </div>
                 </div>
               </article>
             ))}
