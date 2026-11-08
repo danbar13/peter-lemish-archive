@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Heebo', 'Assistant', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    line-height: 1.65;
+    font-size: 1.125rem; /* 18px base font size */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* High Contrast Mode overrides */
+  body.high-contrast {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  body.high-contrast * {
+    border-color: #ffff00 !important;
+  }
+  body.high-contrast a,
+  body.high-contrast button {
+    color: #ffff00 !important;
+  }
+  body.high-contrast .bg-slate-50,
+  body.high-contrast .bg-white,
+  body.high-contrast .bg-slate-100,
+  body.high-contrast .bg-blue-50,
+  body.high-contrast .bg-amber-50 {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+  }
+  body.high-contrast .text-slate-600,
+  body.high-contrast .text-slate-500,
+  body.high-contrast .text-slate-700 {
+    color: #e2e8f0 !important;
+  }
+
+  /* Dyslexia friendly font override */
+  body.dyslexia-font {
+    font-family: 'Comic Sans MS', 'Trebuchet MS', 'Verdana', sans-serif !important;
+    letter-spacing: 0.05em !important;
+    word-spacing: 0.1em !important;
+    line-height: 1.85 !important;
+  }
+
+  /* Highlight links */
+  body.highlight-links a {
+    text-decoration: underline 3px #f59e0b !important;
+    background-color: rgba(254, 240, 138, 0.4) !important;
+    color: #1e3a8a !important;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
