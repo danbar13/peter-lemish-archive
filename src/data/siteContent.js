@@ -26,7 +26,7 @@ export const siteContent = {
       tag: 'מורשת של מחקר ביקורתי ושינוי חברתי',
       name: 'ד"ר פיטר למיש',
       englishName: 'Dr. Peter Lemish',
-      years: '1948 – 2021',
+      years: '80 שנות חיים, יצירה ועשייה ביקורתית',
       title: 'חוקר תקשורת ביקורתית, איש חינוך לשלום ומנהיג קהילתי',
       bioSnippet:
         'מחויבות מתמדת ובלתי מתפשרת להוראה דיאלוגית, פירוק הגמוניות תקשורתיות, חיים משותפים בין יהודים וערבים, והעצמת קהילות בפריפריה החברתית והגיאוגרפית בישראל ובעולם.',
@@ -82,7 +82,7 @@ export const siteContent = {
         },
         {
           id: 'civic-action',
-          year: '2000 – 2021',
+          year: '2000 – ההווה',
           title: 'חינוך לשלום, עמדה טרנסגרסיבית ומיזמי צדק קהילתי וסביבתי (SIU)',
           location: 'ישראל, צפון אירלנד, אוניברסיטת דרום אילינוי (SIU)',
           mediaTag: 'עשייה ציבורית',
@@ -97,20 +97,20 @@ export const siteContent = {
           tags: ['עמדה טרנסגרסיבית', 'Imagining Geographies', 'Civic Soul Media', 'SIU Carbondale', 'צדק סביבתי', 'אירועי פרגוסון'],
         },
         {
-          id: 'legacy',
-          year: '2021 והלאה',
-          title: 'מורשת חיה, זיכרון והמשכיות',
-          location: 'ארכיון דיגיטלי, קהילת עמיתים ותלמידים',
-          mediaTag: 'המשכיות והנצחה',
+          id: 'milestone-80',
+          year: 'גיל 80 והמשך העשייה',
+          title: 'ציון גיל 80: שמונה עשורים של מחויבות חברתית, פדגוגיה ואקטיביזם',
+          location: 'קהילה אקדמית ואזרחית בינלאומית',
+          mediaTag: 'ציון דרך ומבט קדימה',
           shortDesc:
-            'הנחלת תורתו וכתביו לדורות הבאים של חוקרים, אנשי חינוך ופעילי שטח. הקמת הארכיון הדיגיטלי לשמירה והפצה חופשית של מחקריו.',
+            'ציון יום הולדתו ה-80 של ד"ר פיטר למיש – איש אקדמיה נמרץ שפועלו המחקרי והקהילתי ממשיך להוות השראה, מודל לפדגוגיה ביקורתית ומקור בלתי נדלה של תקווה ועשייה.',
           summary:
-            'הנחלת תורתו וכתביו לדורות הבאים של חוקרים, אנשי חינוך ופעילי שטח. הקמת הארכיון הדיגיטלי לשמירה והפצה חופשית של מחקריו.',
+            'ציון יום הולדתו ה-80 של ד"ר פיטר למיש – איש אקדמיה נמרץ שפועלו המחקרי והקהילתי ממשיך להוות השראה, מודל לפדגוגיה ביקורתית ומקור בלתי נדלה של תקווה ועשייה.',
           fullStory:
-            'לכתו של פיטר הותירה חלל עמוק בלב עמיתיו, תלמידיו ושותפיו לדרך. ארכיון דיגיטלי זה הוקם מתוך מטרה להנגיש את גוף הידע הרחב, העשיר והמעורר השראה שיצר. ממאמריו החלוציים על תקשורת ופדגוגיה ועד לפרויקטים מעוררי ההשראה של שותפות קהילתית, מורשתו ממשיכה להדריך ולהאיר את דרכם של כל מי שמאמינים בכוחן של מילים, חינוך ומחקר לבנות עולם שוויוני, רחום וצודק יותר.',
+            'עם הגעתו לגיל 80, כוחו במותניו של ד"ר פיטר למיש, ורוחו הביקורתית והאזרחית ממשיכה לפעום במלוא עוזה. ארכיון דיגיטלי חי זה נועד לרכז, להנגיש ולהנכיח את מפעל חייו העשיר – ממחקריו פורצי הדרך על פדגוגיה ביקורתית ואוריינות מדיה, דרך פרויקטים של דיאלוג ושלום, ועד ליוזמות קהילתיות לצדק חברתי, סביבתי וזכויות אדם. פועלו של פיטר הוא עדות חיה לכך שחינוך, מחקר ומעורבות אזרחית הם שליחות מתמשכת המעצבת חברה שוויונית, רחומה וצודקת יותר.',
           fullText:
-            'לכתו של פיטר הותירה חלל עמוק בלב עמיתיו, תלמידיו ושותפיו לדרך. ארכיון דיגיטלי זה הוקם מתוך מטרה להנגיש את גוף הידע הרחב, העשיר והמעורר השראה שיצר. ממאמריו החלוציים על תקשורת ופדגוגיה ועד לפרויקטים מעוררי ההשראה של שותפות קהילתית, מורשתו ממשיכה להדריך ולהאיר את דרכם של כל מי שמאמינים בכוחן של מילים, חינוך ומחקר לבנות עולם שוויוני, רחום וצודק יותר.',
-          tags: ['מורשת', 'ארכיון דיגיטלי', 'השראה', 'עתיד החינוך'],
+            'עם הגעתו לגיל 80, כוחו במותניו של ד"ר פיטר למיש, ורוחו הביקורתית והאזרחית ממשיכה לפעום במלוא עוזה. ארכיון דיגיטלי חי זה נועד לרכז, להנגיש ולהנכיח את מפעל חייו העשיר – ממחקריו פורצי הדרך על פדגוגיה ביקורתית ואוריינות מדיה, דרך פרויקטים של דיאלוג ושלום, ועד ליוזמות קהילתיות לצדק חברתי, סביבתי וזכויות אדם. פועלו של פיטר הוא עדות חיה לכך שחינוך, מחקר ומעורבות אזרחית הם שליחות מתמשכת המעצבת חברה שוויונית, רחומה וצודקת יותר.',
+          tags: ['ציון 80 שנה', 'ארכיון חי', 'פדגוגיה ביקורתית', 'עשייה אזרחית', 'צדק חברתי'],
         },
       ],
     },
@@ -401,7 +401,7 @@ export const siteContent = {
       ],
     },
     media: {
-      badge: 'תיעוד וזיכרון',
+      badge: 'הרצאות, וידאו ותצלומים',
       title: 'ארכיון מדיה, הרצאות ותצלומים',
       subtitle:
         'קטעי הרצאות מוקלטים, ראיונות טלוויזיוניים, דיונים אקדמיים וגלריית תצלומים היסטורית מחייו ופועלו של ד"ר פיטר למיש.',
@@ -428,7 +428,7 @@ export const siteContent = {
           id: 'ph-portrait',
           title: 'דיוקן אישי – ד"ר פיטר למיש',
           alt: 'דיוקן של ד"ר פיטר למיש בחיוך חם עם כובע מצחייה ומשקפי שמש',
-          caption: 'ד"ר פיטר למיש (1948–2021) – חוקר תקשורת ביקורתית, איש חינוך לשלום ומנהיג קהילתי.',
+          caption: 'ד"ר פיטר למיש – חוקר תקשורת ביקורתית, איש חינוך לשלום ומנהיג קהילתי.',
           url: '/images/peter-lemish-portrait.jpg',
           year: 'מורשת',
         },
@@ -474,7 +474,7 @@ export const siteContent = {
       title: 'דברי חזון, עדויות ושותפויות שטח',
       subtitle:
         'הצהרות השליחות של ד"ר פיטר למיש מתוך מיזמי השינוי החברתי, לצד שיתופי הפעולה המחקריים עם עמיתים, יוצרים וארגוני קהילה.',
-      shareMemoryBtn: 'שיתוף זיכרון או עדות',
+      shareMemoryBtn: 'שליחת ברכה או חוויה משותפת',
       items: [
         {
           id: 'quote-1',
@@ -510,13 +510,13 @@ export const siteContent = {
         },
       ],
       tributeModal: {
-        title: 'שיתוף זיכרון או עדות על ד"ר פיטר למיש',
+        title: 'שליחת ברכה, עדות או חוויה משותפת עם ד"ר פיטר למיש',
         subtitle: 'הוסיפו את קולכם לארכיון המורשת הדיגיטלי',
         nameLabel: 'שם מלא:',
         roleLabel: 'תפקיד או הקשר להיכרות:',
         emailLabel: 'כתובת דוא"ל (לא תפורסם):',
-        messageLabel: 'הזיכרון, המחווה או העדות שלכם:',
-        submitBtn: 'שליחת עדות לארכיון',
+        messageLabel: 'הברכה, החוויה או העדות שלכם:',
+        submitBtn: 'שליחת ברכה לארכיון',
         successMsg: 'תודה רבה! העדות שלך נשמרה בארכיון ותעבור לבדיקה לקראת הצגתה.',
         closeBtn: 'סגור',
       },
@@ -651,7 +651,7 @@ export const siteContent = {
       tag: 'A Legacy of Critical Scholarship & Social Transformation',
       name: 'Dr. Peter Lemish',
       englishName: 'Dr. Peter Lemish',
-      years: '1948 – 2021',
+      years: 'Celebrating 80 Years of Critical Scholarship & Civic Praxis',
       title: 'Critical Media Scholar, Peace Educator & Community Organizer',
       bioSnippet:
         'A lifelong and uncompromising dedication to dialogic pedagogy, deconstructing media hegemony, Jewish-Arab shared society, and grassroots empowerment across Israel, the Middle East, and globally.',
@@ -707,7 +707,7 @@ export const siteContent = {
         },
         {
           id: 'civic-action',
-          year: '2000 – 2021',
+          year: '2000 – Present',
           title: 'Conflict Transformation, Peace Education & Regional Civic Action (SIU)',
           location: 'Israel, Northern Ireland & SIU Carbondale',
           mediaTag: 'Civic Action',
@@ -722,20 +722,20 @@ export const siteContent = {
           tags: ['Transgressive Posture', 'Imagining Geographies', 'Civic Soul Media', 'SIU Carbondale', 'Environmental Justice', 'Ferguson Symposium'],
         },
         {
-          id: 'legacy',
-          year: '2021 & Beyond',
-          title: 'Living Legacy, Memory & Continuity',
-          location: 'Digital Archive, Community of Scholars & Students',
-          mediaTag: 'Living Archive',
+          id: 'milestone-80',
+          year: '80th Milestone & Beyond',
+          title: 'Celebrating 80 Years: Eight Decades of Critical Scholarship & Civic Praxis',
+          location: 'Global Academic & Civic Sphere',
+          mediaTag: 'Milestone & Praxis',
           shortDesc:
-            'Passing forward his insights and writings to future generations of critical scholars, teachers, and changemakers. Maintaining an open digital archive.',
+            'Celebrating Dr. Peter Lemish’s 80th birthday milestone—an active, vigorous educator and critical thinker whose lifelong contributions continue to instruct, engage, and inspire.',
           summary:
-            'Passing forward his insights and writings to future generations of critical scholars, teachers, and changemakers. Maintaining an open digital archive.',
+            'Celebrating Dr. Peter Lemish’s 80th birthday milestone—an active, vigorous educator and critical thinker whose lifelong contributions continue to instruct, engage, and inspire.',
           fullStory:
-            'Peter’s passing left a profound void among colleagues, disciples, and civil society partners. This digital repository was established to preserve, illuminate, and freely distribute his vast body of work. From seminal essays on media representation to conflict resolution methodologies, his intellectual courage continues to inspire all who believe that research and teaching must serve human dignity, equality, and compassion.',
+            'Celebrating his 80th birthday milestone with vitality, sharp intellect, and unwavering passion, Dr. Peter Lemish continues to embody the true spirit of critical praxis. This living digital archive serves to organize, illuminate, and freely share his extensive scholarship—from pioneering analyses of media literacy and critical pedagogy to transformative community coalitions for environmental justice, housing rights, and intercultural dialogue. Dr. Lemish’s ongoing journey stands as living proof that educational and civic engagement is a lifelong vocation dedicated to justice, human dignity, and democratic empowerment.',
           fullText:
-            'Peter’s passing left a profound void among colleagues, disciples, and civil society partners. This digital repository was established to preserve, illuminate, and freely distribute his vast body of work. From seminal essays on media representation to conflict resolution methodologies, his intellectual courage continues to inspire all who believe that research and teaching must serve human dignity, equality, and compassion.',
-          tags: ['Living Legacy', 'Open Scholarship', 'Inspiration', 'Future of Education'],
+            'Celebrating his 80th birthday milestone with vitality, sharp intellect, and unwavering passion, Dr. Peter Lemish continues to embody the true spirit of critical praxis. This living digital archive serves to organize, illuminate, and freely share his extensive scholarship—from pioneering analyses of media literacy and critical pedagogy to transformative community coalitions for environmental justice, housing rights, and intercultural dialogue. Dr. Lemish’s ongoing journey stands as living proof that educational and civic engagement is a lifelong vocation dedicated to justice, human dignity, and democratic empowerment.',
+          tags: ['80th Milestone', 'Living Archive', 'Critical Pedagogy', 'Civic Action', 'Democratic Praxis'],
         },
       ],
     },
@@ -1026,7 +1026,7 @@ export const siteContent = {
       ],
     },
     media: {
-      badge: 'Living Memory',
+      badge: 'Lectures, Video & Photography',
       title: 'Media Archive, Lectures & Photography',
       subtitle:
         'Archived video recordings, keynote addresses, broadcast interviews, and historic photographs documenting the scholarship and activism of Dr. Peter Lemish.',
@@ -1038,13 +1038,13 @@ export const siteContent = {
         {
           id: 'vid-lemish-keynote',
           title: 'Keynote Lecture by Dr. Peter Lemish: Independent Media, Agenda-Setting & Social Change',
-          event: 'Tribute to Independent Media in Israel — Israel Social TV & The Left Bank (Tel Aviv)',
+          event: 'Keynote Lecture on Independent Media in Israel — Israel Social TV & The Left Bank (Tel Aviv)',
           duration: '1:31:23',
           thumbnail: 'https://i.ytimg.com/vi/EEnIbMyYUNc/hqdefault.jpg',
           embedUrl: 'https://www.youtube.com/embed/EEnIbMyYUNc',
           youtubeUrl: 'https://www.youtube.com/watch?v=EEnIbMyYUNc',
           description:
-            'Full archival video documenting the Tribute to Independent Media in Israel, featuring the keynote lecture delivered by Dr. Peter Lemish. In this lecture, Dr. Lemish examines the indispensable role of grassroots civic media in setting the public agenda, building democratic critical mass, and bridging critical academia with community struggles on the ground.',
+            'Full archival video documenting the conference on Independent Media in Israel, featuring the keynote lecture delivered by Dr. Peter Lemish. In this lecture, Dr. Lemish examines the indispensable role of grassroots civic media in setting the public agenda, building democratic critical mass, and bridging critical academia with community struggles on the ground.',
           tags: ['Dr. Peter Lemish', 'Independent Media', 'Social Change', 'Keynote Lecture', 'Israel Social TV'],
         },
       ],
@@ -1053,9 +1053,9 @@ export const siteContent = {
           id: 'ph-portrait',
           title: 'Portrait – Dr. Peter Lemish',
           alt: 'Portrait of Dr. Peter Lemish smiling warmly with a cap and sunglasses',
-          caption: 'Dr. Peter Lemish (1948–2021) — Critical media scholar, peace educator, and community organizer.',
+          caption: 'Dr. Peter Lemish — Critical media scholar, peace educator, and community organizer.',
           url: '/images/peter-lemish-portrait.jpg',
-          year: 'Legacy',
+          year: 'Archive',
         },
         {
           id: 'ph-1',
@@ -1099,7 +1099,7 @@ export const siteContent = {
       title: 'Mission Declarations & Scholarly Collaborations',
       subtitle:
         'Dr. Peter Lemish’s direct statements on civic engagement and regional transformation, alongside documented partnerships with academic peers and civic organizations.',
-      shareMemoryBtn: 'Share a Tribute / Memory',
+      shareMemoryBtn: 'Send a Greeting or Reflection',
       items: [
         {
           id: 'quote-1',
@@ -1135,14 +1135,14 @@ export const siteContent = {
         },
       ],
       tributeModal: {
-        title: 'Share a Tribute or Memory of Dr. Peter Lemish',
+        title: 'Send a Greeting or Reflection to Dr. Peter Lemish',
         subtitle: 'Contribute your voice to this living digital archive',
         nameLabel: 'Full Name:',
         roleLabel: 'Role / Relationship to Dr. Lemish:',
         emailLabel: 'Email Address (kept confidential):',
-        messageLabel: 'Your reflection, remembrance or tribute:',
-        submitBtn: 'Submit Tribute to Archive',
-        successMsg: 'Thank you! Your tribute has been recorded and will be reviewed for publication in the archive.',
+        messageLabel: 'Your reflection, greeting or shared memory:',
+        submitBtn: 'Send Greeting to Archive',
+        successMsg: 'Thank you! Your greeting has been recorded and will be reviewed for publication in the archive.',
         closeBtn: 'Close',
       },
     },

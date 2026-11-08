@@ -94,7 +94,7 @@ export const Hero = () => {
                     <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full border-4 border-amber-400 p-1 shadow-2xl bg-gradient-to-b from-amber-300 via-amber-400 to-amber-600 mb-4 overflow-hidden group">
                       <img
                         src="/images/peter-lemish-portrait.jpg"
-                        alt={isRTL ? 'ד"ר פיטר למיש (1948–2021)' : 'Dr. Peter Lemish (1948–2021)'}
+                        alt={isRTL ? 'ד"ר פיטר למיש' : 'Dr. Peter Lemish'}
                         className="w-full h-full object-cover object-center rounded-full transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
@@ -103,7 +103,7 @@ export const Hero = () => {
                         {isRTL ? 'ד"ר פיטר למיש' : 'Dr. Peter Lemish'}
                       </span>
                       <span className="text-xs text-slate-300 font-mono">
-                        {hero.years || '1948 – 2021'}
+                        {hero.years || (isRTL ? 'חוקר תקשורת, איש חינוך ועשייה אזרחית' : 'Critical Media Scholar & Civic Educator')}
                       </span>
                     </div>
                     <p className="text-xs sm:text-sm font-medium text-slate-200 italic max-w-xs px-2 text-center">

@@ -87,7 +87,7 @@ def create_cv_pdf():
     elements = []
 
     elements.append(Paragraph("CURRICULUM VITAE", meta_style))
-    elements.append(Paragraph("Dr. Peter Lemish (1948 – 2021)", title_style))
+    elements.append(Paragraph("Dr. Peter Lemish", title_style))
     elements.append(Paragraph(
         "Critical Media Scholar • Peace Educator • Community Organizer • Higher Education Academic Leader",
         subtitle_style

@@ -12,9 +12,9 @@ export const Testimonials = () => {
   const initialItems = Array.isArray(data) ? data : (data.items || []);
 
   const allTributes = [...customTributes, ...initialItems];
-  const title = data.title || (isRTL ? 'עדויות והוקרה' : 'Testimonials & Reflections');
-  const subtitle = data.subtitle || (isRTL ? 'מילים חמות וזיכרונות שנשזרו לאורך עשרות שנות עשייה – על האומץ המחשבתי, החום האנושי והמחויבות.' : 'Reflections, memories, and honors celebrating Peter’s intellectual fearlessness, radical warmth, and moral clarity.');
-  const shareBtnText = data.shareMemoryBtn || (isRTL ? 'שיתוף זיכרון או עדות' : 'Share a Tribute / Memory');
+  const title = data.title || (isRTL ? 'ברכות, עדויות ושותפויות לדרך' : 'Greetings, Reflections & Shared Perspectives');
+  const subtitle = data.subtitle || (isRTL ? 'מילים חמות, חוויות משותפות ועדויות של עמיתים, תלמידים ושותפים לדרך – על האומץ המחשבתי, החום האנושי והמחויבות החברתית של ד"ר פיטר למיש.' : 'Warm reflections, collegial perspectives, and shared experiences celebrating Dr. Peter Lemish’s intellectual fearlessness, radical warmth, and ongoing dedication to social justice.');
+  const shareBtnText = data.shareMemoryBtn || (isRTL ? 'שליחת ברכה או חוויה משותפת' : 'Send a Greeting or Reflection');
 
   const handleAddTribute = (newTribute) => {
     setCustomTributes((prev) => [newTribute, ...prev]);
