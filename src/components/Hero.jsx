@@ -10,12 +10,12 @@ export const Hero = () => {
   return (
     <section
       aria-labelledby="hero-title"
-      className="relative overflow-hidden bg-gradient-to-b from-slate-100 via-white to-slate-50 pt-12 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-200"
+      className="relative overflow-hidden bg-slate-50 dark:bg-[#0b1120] pt-12 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300"
     >
       {/* Subtle decorative background circles */}
-      <div className="absolute top-0 start-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none opacity-40">
-        <div className="absolute -top-32 start-12 w-96 h-96 bg-blue-100/70 rounded-full blur-3xl" />
-        <div className="absolute top-48 end-10 w-80 h-80 bg-amber-100/60 rounded-full blur-3xl" />
+      <div className="absolute top-0 start-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none opacity-40 dark:opacity-20">
+        <div className="absolute -top-32 start-12 w-96 h-96 bg-blue-100/70 dark:bg-blue-900/30 rounded-full blur-3xl" />
+        <div className="absolute top-48 end-10 w-80 h-80 bg-amber-100/60 dark:bg-amber-900/20 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,7 +83,7 @@ export const Hero = () => {
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md">
               {/* Outer Academic Accent Frame */}
-              <div className="relative p-3 bg-white rounded-3xl shadow-2xl border border-slate-200">
+              <div className="relative p-3 bg-white dark:bg-slate-800 rounded-3xl shadow-2xl border border-slate-200 dark:border-slate-700">
                 <div className="relative aspect-4/5 rounded-2xl overflow-hidden bg-gradient-to-tr from-slate-900 via-blue-950 to-indigo-950 flex flex-col items-center justify-between p-8 text-center text-white">
                   
                   {/* Decorative background grid pattern */}

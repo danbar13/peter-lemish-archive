@@ -108,7 +108,11 @@ export const Navbar = () => {
                 onClick={toggleDarkMode}
                 aria-label={darkMode ? (isRTL ? 'מעבר למצב בהיר' : 'Switch to Light Mode') : (isRTL ? 'מעבר למצב חשוך יוקרתי' : 'Switch to Dark Mode')}
                 title={darkMode ? (isRTL ? 'מצב בהיר' : 'Light Theme') : (isRTL ? 'מצב חשוך יוקרתי' : 'Luxurious Dark Mode')}
-                className="p-2 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:outline-none flex items-center justify-center"
+                className={`p-2 rounded-xl text-xs font-bold transition-all duration-200 border focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:outline-none flex items-center justify-center ${
+                  darkMode
+                    ? 'bg-slate-800 hover:bg-slate-700 border-amber-400/50 text-amber-300 shadow-md ring-1 ring-amber-400/30'
+                    : 'bg-slate-100 hover:bg-slate-200 border-slate-200 text-slate-800'
+                }`}
               >
                 {darkMode ? (
                   <Sun className="w-4 h-4 text-amber-400" aria-hidden="true" />

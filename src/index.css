@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
     --font-sans: 'Heebo', 'Assistant', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -19,167 +21,229 @@
     padding: 0;
     transition: background-color 0.25s ease, color 0.25s ease;
   }
+}
 
-  /* ========================================================
-     LUXURIOUS DARK THEME (מצב חשוך יוקרתי, קטיפתי ונעים לעין)
-     ======================================================== */
-  body.dark-theme {
-    background-color: #0b1120 !important;
-    color: #cbd5e1 !important;
-  }
+/* ========================================================
+   LUXURIOUS DARK THEME (מצב חשוך יוקרתי, קטיפתי ונעים לעין)
+   Declared outside @layer base to guarantee high specificity
+   ======================================================== */
+html.dark,
+body.dark-theme,
+html.dark body {
+  background-color: #0b1120 !important;
+  color: #cbd5e1 !important;
+}
 
-  /* Header / Navbar */
-  body.dark-theme header {
-    background-color: rgba(11, 17, 32, 0.95) !important;
-    border-color: rgba(51, 65, 85, 0.6) !important;
-  }
+/* Header & Sticky Nav */
+html.dark header,
+body.dark-theme header {
+  background-color: rgba(11, 17, 32, 0.95) !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+}
 
-  /* Sections & Backgrounds */
-  body.dark-theme section,
-  body.dark-theme main,
-  body.dark-theme footer {
-    background-color: #0b1120;
-  }
+/* All Sections & Backgrounds */
+html.dark section,
+body.dark-theme section,
+html.dark main,
+body.dark-theme main {
+  background-image: none !important;
+}
 
-  body.dark-theme .bg-slate-50 {
-    background-color: #0f172a !important;
-  }
+html.dark .bg-slate-50,
+body.dark-theme .bg-slate-50 {
+  background-color: #0d1527 !important;
+  background-image: none !important;
+}
 
-  body.dark-theme .bg-white {
-    background-color: #151e32 !important;
-    border-color: rgba(71, 85, 105, 0.5) !important;
-  }
+html.dark .bg-white,
+html.dark .bg-white\/95,
+html.dark .bg-white\/90,
+body.dark-theme .bg-white,
+body.dark-theme .bg-white\/95,
+body.dark-theme .bg-white\/90 {
+  background-color: #151e32 !important;
+  border-color: rgba(71, 85, 105, 0.5) !important;
+}
 
-  body.dark-theme .bg-slate-100 {
-    background-color: #1a2744 !important;
-  }
+html.dark .bg-slate-100,
+body.dark-theme .bg-slate-100 {
+  background-color: #1a2744 !important;
+  border-color: rgba(71, 85, 105, 0.5) !important;
+}
 
-  body.dark-theme .bg-slate-200 {
-    background-color: #243456 !important;
-  }
+html.dark .bg-slate-200,
+body.dark-theme .bg-slate-200 {
+  background-color: #243456 !important;
+}
 
-  body.dark-theme .bg-blue-50 {
-    background-color: rgba(30, 58, 138, 0.3) !important;
-    border-color: rgba(59, 130, 246, 0.3) !important;
-  }
+html.dark .bg-blue-50,
+body.dark-theme .bg-blue-50 {
+  background-color: rgba(30, 58, 138, 0.3) !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
 
-  body.dark-theme .bg-amber-50 {
-    background-color: rgba(217, 119, 6, 0.2) !important;
-    border-color: rgba(245, 158, 11, 0.35) !important;
-  }
+html.dark .bg-blue-100,
+html.dark .bg-blue-100\/90,
+html.dark .bg-blue-100\/70,
+body.dark-theme .bg-blue-100,
+body.dark-theme .bg-blue-100\/90,
+body.dark-theme .bg-blue-100\/70 {
+  background-color: rgba(30, 58, 138, 0.35) !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
 
-  /* Borders */
-  body.dark-theme .border-slate-200,
-  body.dark-theme .border-slate-200\/80,
-  body.dark-theme .border-slate-200\/60,
-  body.dark-theme .border-slate-100 {
-    border-color: rgba(71, 85, 105, 0.5) !important;
-  }
+html.dark .bg-amber-50,
+html.dark .bg-amber-100\/60,
+body.dark-theme .bg-amber-50,
+body.dark-theme .bg-amber-100\/60 {
+  background-color: rgba(217, 119, 6, 0.2) !important;
+  border-color: rgba(245, 158, 11, 0.35) !important;
+}
 
-  /* Typography */
-  body.dark-theme h1,
-  body.dark-theme h2,
-  body.dark-theme h3,
-  body.dark-theme h4,
-  body.dark-theme .text-slate-950,
-  body.dark-theme .text-slate-900 {
-    color: #f8fafc !important;
-  }
+/* Borders */
+html.dark .border-slate-200,
+html.dark .border-slate-200\/80,
+html.dark .border-slate-200\/60,
+html.dark .border-slate-100,
+body.dark-theme .border-slate-200,
+body.dark-theme .border-slate-200\/80,
+body.dark-theme .border-slate-200\/60,
+body.dark-theme .border-slate-100 {
+  border-color: rgba(71, 85, 105, 0.5) !important;
+}
 
-  body.dark-theme .text-slate-800,
-  body.dark-theme .text-slate-700 {
-    color: #e2e8f0 !important;
-  }
+/* Typography in Dark Theme */
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark .text-slate-950,
+html.dark .text-slate-900,
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme .text-slate-950,
+body.dark-theme .text-slate-900 {
+  color: #f8fafc !important;
+}
 
-  body.dark-theme .text-slate-600 {
-    color: #94a3b8 !important;
-  }
+html.dark .text-slate-800,
+html.dark .text-slate-700,
+body.dark-theme .text-slate-800,
+body.dark-theme .text-slate-700 {
+  color: #cbd5e1 !important;
+}
 
-  body.dark-theme .text-slate-500 {
-    color: #64748b !important;
-  }
+html.dark .text-slate-600,
+body.dark-theme .text-slate-600 {
+  color: #94a3b8 !important;
+}
 
-  body.dark-theme .text-blue-950,
-  body.dark-theme .text-blue-900 {
-    color: #93c5fd !important;
-  }
+html.dark .text-slate-500,
+body.dark-theme .text-slate-500 {
+  color: #64748b !important;
+}
 
-  body.dark-theme .text-amber-700,
-  body.dark-theme .text-amber-800 {
-    color: #fbbf24 !important;
-  }
+html.dark .text-blue-950,
+html.dark .text-blue-900,
+body.dark-theme .text-blue-950,
+body.dark-theme .text-blue-900 {
+  color: #93c5fd !important;
+}
 
-  /* Shadows in Dark Theme */
-  body.dark-theme .shadow-xs,
-  body.dark-theme .shadow-sm,
-  body.dark-theme .shadow-md,
-  body.dark-theme .shadow-xl,
-  body.dark-theme .shadow-2xl {
-    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.5) !important;
-  }
+html.dark .text-amber-700,
+html.dark .text-amber-800,
+body.dark-theme .text-amber-700,
+body.dark-theme .text-amber-800 {
+  color: #fbbf24 !important;
+}
 
-  /* Form Elements in Dark Theme */
-  body.dark-theme input,
-  body.dark-theme select,
-  body.dark-theme textarea {
-    background-color: #0d1527 !important;
-    color: #f8fafc !important;
-    border-color: #334155 !important;
-  }
+/* Shadows in Dark Theme */
+html.dark .shadow-xs,
+html.dark .shadow-sm,
+html.dark .shadow-md,
+html.dark .shadow-xl,
+html.dark .shadow-2xl,
+body.dark-theme .shadow-xs,
+body.dark-theme .shadow-sm,
+body.dark-theme .shadow-md,
+body.dark-theme .shadow-xl,
+body.dark-theme .shadow-2xl {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.5) !important;
+}
 
-  body.dark-theme input:focus,
-  body.dark-theme select:focus,
-  body.dark-theme textarea:focus {
-    border-color: #f59e0b !important;
-    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25) !important;
-  }
+/* Form Elements in Dark Theme */
+html.dark input,
+html.dark select,
+html.dark textarea,
+body.dark-theme input,
+body.dark-theme select,
+body.dark-theme textarea {
+  background-color: #0d1527 !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
 
-  /* Modals in Dark Theme */
-  body.dark-theme [role="dialog"] .bg-white {
-    background-color: #111a2e !important;
-    border-color: rgba(71, 85, 105, 0.6) !important;
-  }
+html.dark input:focus,
+html.dark select:focus,
+html.dark textarea:focus,
+body.dark-theme input:focus,
+body.dark-theme select:focus,
+body.dark-theme textarea:focus {
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25) !important;
+}
 
-  /* High Contrast Mode overrides */
-  body.high-contrast {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-  }
-  body.high-contrast * {
-    border-color: #ffff00 !important;
-  }
-  body.high-contrast a,
-  body.high-contrast button {
-    color: #ffff00 !important;
-  }
-  body.high-contrast .bg-slate-50,
-  body.high-contrast .bg-white,
-  body.high-contrast .bg-slate-100,
-  body.high-contrast .bg-blue-50,
-  body.high-contrast .bg-amber-50 {
-    background-color: #121212 !important;
-    color: #ffffff !important;
-  }
-  body.high-contrast .text-slate-600,
-  body.high-contrast .text-slate-500,
-  body.high-contrast .text-slate-700 {
-    color: #e2e8f0 !important;
-  }
+/* Modals & Dialogs in Dark Theme */
+html.dark [role="dialog"] .bg-white,
+body.dark-theme [role="dialog"] .bg-white {
+  background-color: #111a2e !important;
+  color: #f8fafc !important;
+  border-color: rgba(71, 85, 105, 0.6) !important;
+}
 
-  /* Dyslexia friendly font override */
-  body.dyslexia-font {
-    font-family: 'Comic Sans MS', 'Trebuchet MS', 'Verdana', sans-serif !important;
-    letter-spacing: 0.05em !important;
-    word-spacing: 0.1em !important;
-    line-height: 1.85 !important;
-  }
+/* ========================================================
+   ACCESSIBILITY OVERRIDES (HIGH CONTRAST & DYSLEXIA)
+   ======================================================== */
+body.high-contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+body.high-contrast * {
+  border-color: #ffff00 !important;
+}
+body.high-contrast a,
+body.high-contrast button {
+  color: #ffff00 !important;
+}
+body.high-contrast .bg-slate-50,
+body.high-contrast .bg-white,
+body.high-contrast .bg-slate-100,
+body.high-contrast .bg-blue-50,
+body.high-contrast .bg-amber-50 {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+body.high-contrast .text-slate-600,
+body.high-contrast .text-slate-500,
+body.high-contrast .text-slate-700 {
+  color: #e2e8f0 !important;
+}
 
-  /* Highlight links */
-  body.highlight-links a {
-    text-decoration: underline 3px #f59e0b !important;
-    background-color: rgba(254, 240, 138, 0.4) !important;
-    color: #1e3a8a !important;
-  }
+/* Dyslexia friendly font override */
+body.dyslexia-font {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', 'Verdana', sans-serif !important;
+  letter-spacing: 0.05em !important;
+  word-spacing: 0.1em !important;
+  line-height: 1.85 !important;
+}
+
+/* Highlight links */
+body.highlight-links a {
+  text-decoration: underline 3px #f59e0b !important;
+  background-color: rgba(254, 240, 138, 0.4) !important;
+  color: #1e3a8a !important;
 }
 
 /* Reduced motion preference */
