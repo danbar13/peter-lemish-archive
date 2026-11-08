@@ -126,7 +126,7 @@ def create_cv_pdf():
     pillars = [
         "<b>The Transgressive Posture:</b> Formulating an ontological Heideggerian framework for crossing socio-political taboos and institutional boundaries in intractable conflicts, particularly the Israeli-Arab conflict.",
         "<b>Critical Pedagogy & Social Problems:</b> Exposing silenced social issues, power-control dynamics, and bureaucratic apathy through problem-posing pedagogy (with Dvora Feldash).",
-        "<b>Media Literacy & Democratic Praxis:</b> Investigating national curriculum reforms, children's processing of conflict news, and constructive media framing (with Dafna Lemish).",
+        "<b>Media Literacy & Democratic Praxis:</b> Investigating national curriculum reforms, children's processing of conflict news, and constructive media framing across educational frameworks.",
         "<b>Civic Action & Intercultural Musicking:</b> Documenting transcultural collaborations, civil society media leadership, and community justice initiatives across Israel, Northern Ireland, and North America."
     ]
     for p in pillars:
@@ -194,8 +194,8 @@ publications_meta = [
         "file": "pub-5-media-literacy-in-israel.pdf",
         "title": "A Much Debated Consensus: Media Literacy in Israel",
         "year": "2001 / 2018",
-        "publisher": "Media Literacy Around the World (with Dafna Lemish, pp. 213–228)",
-        "citation": "Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).",
+        "publisher": "Media Literacy Around the World, pp. 213–228",
+        "citation": "Lemish, P. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).",
         "abstract": "A foundational study tracing the emergence, political debates, and institutional adoption of media literacy education in Israel. It evaluates how critical media pedagogy was introduced into school curricula to empower students to interrogate media representations and participate in democratic life.",
         "findings": "The study reveals the creative tension between official state curricular aims (which sought patriotic consensus) and critical media education (which trains youth to deconstruct media power, bias, and structural exclusion)."
     },
