@@ -75,9 +75,9 @@ export const siteContent = {
           summary:
             'ביסוס מעמדו כחוקר מוביל, ראש חוג ומנהל אקדמי בישראל. מחקר בפדגוגיה ביקורתית, פיתוח תוכניות לימודים מבוססות פרקסיס ויחסי כוח, פיתוח מתודולוגיות מחקר איכותני, מחקרים עם דבורה פלדש, והובלת אוריינות המדיה בישראל.',
           fullStory:
-            'לאורך תקופה זו ביסס ד"ר למיש מעמד אקדמי בכיר בישראל כמרצה, ראש חוג ומנהיג אקדמי. מחקרו הדגיש תקשורת ביקורתית, מסגרות מתקדמות של מחקר איכותני, ופיתוח תוכניות לימודים בבתי ספר המבוססות על שחרור תודעתי, פרקסיס ואיזון יחסי כוח.\n\nמוקד מרכזי בעבודתו היה שינוי חברתי והתמודדות עם סכסוך: בשנת 1989 הציג מודלים חינוכיים למאבק ולפיתוח תוכניות לימודים ב"כנס מנחי קבוצות יהודים-ערבים" בנצרת. בשנת 1997 פרסם מחקר ציון-דרך יחד עם דבורה פלדש על חשיפת בעיות חברתיות באמצעות פדגוגיה ביקורתית, לצד הנחת היסודות המחקריים הראשונים לאוריינות מדיה בישראל.',
+            'לאורך תקופה זו ביסס ד"ר למיש מעמד אקדמי בכיר בישראל כמרצה, ראש חוג ומנהיג אקדמי. מחקרו הדגיש תקשורת ביקורתית, מסגרות מתקדמות של מחקר איכותני (כולל מחקרים משותפים פוריים עם פרופ\' דפנה למיש בתחום אוריינות המדיה), ופיתוח תוכניות לימודים בבתי ספר המבוססות על שחרור תודעתי, פרקסיס ואיזון יחסי כוח.\n\nמוקד מרכזי בעבודתו היה שינוי חברתי והתמודדות עם סכסוך: בשנת 1989 הציג מודלים חינוכיים למאבק ולפיתוח תוכניות לימודים ב"כנס מנחי קבוצות יהודים-ערבים" בנצרת. בשנת 1997 פרסם מחקר ציון-דרך יחד עם דבורה פלדש על חשיפת בעיות חברתיות באמצעות פדגוגיה ביקורתית, לצד הנחת היסודות המחקריים הראשונים לאוריינות מדיה בישראל.',
           fullText:
-            'לאורך תקופה זו ביסס ד"ר למיש מעמד אקדמי בכיר בישראל כמרצה, ראש חוג ומנהיג אקדמי. מחקרו הדגיש תקשורת ביקורתית, מסגרות מתקדמות של מחקר איכותני, ופיתוח תוכניות לימודים בבתי ספר המבוססות על שחרור תודעתי, פרקסיס ואיזון יחסי כוח.\n\nמוקד מרכזי בעבודתו היה שינוי חברתי והתמודדות עם סכסוך: בשנת 1989 הציג מודלים חינוכיים למאבק ולפיתוח תוכניות לימודים ב"כנס מנחי קבוצות יהודים-ערבים" בנצרת. בשנת 1997 פרסם מחקר ציון-דרך יחד עם דבורה פלדש על חשיפת בעיות חברתיות באמצעות פדגוגיה ביקורתית, לצד הנחת היסודות המחקריים הראשונים לאוריינות מדיה בישראל.',
+            'לאורך תקופה זו ביסס ד"ר למיש מעמד אקדמי בכיר בישראל כמרצה, ראש חוג ומנהיג אקדמי. מחקרו הדגיש תקשורת ביקורתית, מסגרות מתקדמות של מחקר איכותני (כולל מחקרים משותפים פוריים עם פרופ\' דפנה למיש בתחום אוריינות המדיה), ופיתוח תוכניות לימודים בבתי ספר המבוססות על שחרור תודעתי, פרקסיס ואיזון יחסי כוח.\n\nמוקד מרכזי בעבודתו היה שינוי חברתי והתמודדות עם סכסוך: בשנת 1989 הציג מודלים חינוכיים למאבק ולפיתוח תוכניות לימודים ב"כנס מנחי קבוצות יהודים-ערבים" בנצרת. בשנת 1997 פרסם מחקר ציון-דרך יחד עם דבורה פלדש על חשיפת בעיות חברתיות באמצעות פדגוגיה ביקורתית, לצד הנחת היסודות המחקריים הראשונים לאוריינות מדיה בישראל.',
           tags: ['פדגוגיה ביקורתית', 'מנהיגות אקדמית', 'אוריינות מדיה', 'כנס נצרת 1989', 'מחקר איכותני', 'דבורה פלדש'],
         },
         {
@@ -244,7 +244,7 @@ export const siteContent = {
             'פרק מחקרי זה בוחן כיצד הפקות טלוויזיה איכותיות לילדים יכולות לסייע בהבנת מודלים בוני שלום ויישוב סכסוכים. המחקר מנתח את האופן שבו יוצרי תוכן ממסגרים קונפליקטים פוליטיים וצבאיים, ומציע מתודולוגיות המאפשרות לצופים צעירים לעבד פחדים המוזנים משידורי חדשות ולפתח תפיסות אמפתיות לפתרון סכסוכים.',
           tags: ['פתרון סכסוכים', 'חינוך לשלום', 'ילדים ומדיה', 'טלוויזיה איכותית'],
           citation:
-            'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
+            'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In D. Lemish, M. Götz, & B. Dervin (Eds.), Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
           pdfUrl: '/files/publications/pub-2-conflict-resolution-children-tv.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Conflict_Resolution_Through_Quality_Television_2007.pdf',
           externalUrl: 'https://scholar.google.com/scholar?q=Developing+children%27s+understanding+of+conflict+resolution+through+quality+television+Peter+Lemish',
@@ -283,10 +283,10 @@ export const siteContent = {
           abstract:
             'מחקר הבוחן שיתוף פעולה מוזיקלי בין-תרבותי כאמצעי של תקשורת פוליטית ודיאלוג אזרחי. על בסיס פרויקטים מוזיקליים משותפים של אמנים ישראלים ואיראנים בטורונטו, המאמר מדגים כיצד מוזיקה מחויבת מגשרת על שסעים גיאופוליטיים ומייצרת נרטיב-נגד למלחמה.',
           fullAbstract:
-            'מחקר זה מנתח את מושג ה"Engaged Musicking" כפלטפורמה אקטיביסטית לתקשורת פוליטית. ד"ר למיש בוחן שיתופי פעולה אמנותיים חיים בין מוזיקאים ישראלים ואיראניים בטורונטו וממחיש כיצד יצירה מוזיקלית רב-תרבותית שוברת דימויי אויב ומציעה מודל אזרחי של שלום וסולידריות.',
-          tags: ['תקשורת פוליטית', 'Engaged Musicking', 'מוזיקה ודיאלוג', 'ישראלים ואיראנים'],
+            'פרק מחקרי זה, שנכתב על ידי ד"ר פיטר למיש בשיתוף פעולה מחקרי עם נעם למיש, פריסה סאבט ודן דויטש, מנתח את מושג ה"Engaged Musicking" כפלטפורמה אקטיביסטית לתקשורת פוליטית. המחברים מתחקים אחר שיתופי פעולה אמנותיים חיים בין מוזיקאים ישראלים ואיראניים בטורונטו וממחישים כיצד יצירה רב-תרבותית שוברת דימויי אויב ומציעה מודל אזרחי של שלום וסולידריות.',
+          tags: ['תקשורת פוליטית', 'Engaged Musicking', 'נעם למיש (מחבר שותף)', 'דיאלוג ישראלי-איראני'],
           citation:
-            'Lemish, P., et al. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
+            'Lemish, P., Lemish, N., Sabet, P., & Deutsch, D. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
           pdfUrl: '/files/publications/pub-4-iranians-israelis-make-music.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Iranians_and_Israelis_Make_Music_Not_War_2017.pdf',
           externalUrl: 'https://doi.org/10.4018/978-1-5225-1986-7.ch007',
@@ -300,14 +300,14 @@ export const siteContent = {
           year: 2018,
           title: 'קונצנזוס שנוי במחלוקת: אוריינות תקשורת בישראל (A much debated consensus: Media literacy in Israel)',
           englishTitle: 'A much debated consensus: Media literacy in Israel',
-          publisher: 'Media Literacy Around the World (עמ\' 213–228)',
+          publisher: 'Media Literacy Around the World (עם פרופ\' דפנה למיש, עמ\' 213–228)',
           abstract:
             'פרק יסוד המתחקה אחר צמיחתה, הדיונים הפוליטיים סביבה ואימוצה המוסדי של אוריינות התקשורת בישראל. בוחן כיצד פדגוגיה תקשורתית ביקורתית נכנסה לתוכניות הלימודים כדי להעצים תלמידים לחקור מסרים תקשורתיים ולהשתתף בחיים הדמוקרטיים.',
           fullAbstract:
-            'פרק מקיף מאת ד"ר פיטר למיש הסוקר את ההיסטוריה והמדיניות של הוראת תקשורת ואוריינות מדיה בישראל. הפרק בוחן את המתח שבין צרכים לאומיים לבין חינוך ביקורתי המטיל ספק בנרטיבים ממסדיים, ומציג את האופן שבו אוריינות תקשורת מעצימה צעירים בחברה רב-תרבותית.',
-          tags: ['אוריינות מדיה', 'רפורמה בחינוך', 'פדגוגיה ביקורתית', 'תקשורת בישראל'],
+            'פרק מקיף שנכתב על ידי ד"ר פיטר למיש ופרופ\' דפנה למיש הסוקר את ההיסטוריה והמדיניות של הוראת תקשורת ואוריינות מדיה בישראל. הפרק בוחן את המתח שבין צרכים לאומיים לבין חינוך ביקורתי המטיל ספק בנרטיבים ממסדיים, ומציג את האופן שבו אוריינות תקשורת מעצימה צעירים בחברה רב-תרבותית.',
+          tags: ['אוריינות מדיה', 'רפורמה בחינוך', 'פדגוגיה ביקורתית', 'פרופ\' דפנה למיש (מחברת שותפה)'],
           citation:
-            'Lemish, P. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
+            'Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
           pdfUrl: '/files/publications/pub-5-media-literacy-in-israel.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Media_Literacy_in_Israel_2018.pdf',
           externalUrl: 'https://scholar.google.com/scholar?q=A+much+debated+consensus%3A+Media+literacy+in+Israel+Peter+Lemish',
@@ -503,9 +503,9 @@ export const siteContent = {
         {
           id: 'partners-1',
           name: 'רשת שותפויות המחקר והאקטיביזם',
-          role: 'דבורה פלדש, ד"ר אוצ\'ה אונייבדי וקואליציית הצדק החברתי והדיור Sparrow',
+          role: 'שותפים אקדמיים: פרופ\' דפנה למיש, נעם למיש, דבורה פלדש, ד"ר אוצ\'ה אונייבדי וקואליציית Sparrow',
           quote:
-            'פועלו של ד"ר פיטר למיש שילב מחקר אקדמי קפדני עם מעורבות חברתית אמיצה: מפיתוח פדגוגיה ביקורתית וחקר אוריינות מדיה, דרך קידום דיאלוג בין-תרבותי לשלום, ועד להובלת הסימפוזיון האקדמי-קהילתי בעקבות אירועי פרגוסון והמאבק לצדק סביבתי ולדיור בר-השגה.',
+            'מחקריו ויוזמותיו של ד"ר פיטר למיש התאפיינו בעבודה משותפת עמוקה עם עמיתיו: מחקר פורץ דרך באוריינות מדיה בשיתוף פרופ\' דפנה למיש, חקר תקשורת פוליטית ומוזיקה מגשרת עם נעם למיש, פדגוגיה ביקורתית עם דבורה פלדש, ועד להובלת הסימפוזיון האקדמי-קהילתי בעקבות אירועי פרגוסון והמאבק לדיור בר-השגה עם קואליציית Sparrow.',
           location: 'ישראל, קנדה, ארה"ב',
         },
       ],
@@ -700,9 +700,9 @@ export const siteContent = {
           summary:
             'Establishing a prominent academic career in Israel as university lecturer, department chair, and academic leader. Research focused on critical pedagogy, curriculum development based on praxis and power-control, and pioneering media literacy in Israel.',
           fullStory:
-            'Throughout this period, Dr. Lemish held key academic leadership roles across Israeli higher education, serving as a faculty member, department chair, and academic director. His scholarship emphasized critical communication, qualitative research frameworks, and school curriculum design based on praxis and power-control evaluation.\n\nA central theme of his work was social transformation and conflict: in 1989, he presented models for educational struggle and curriculum development at the Arab-Jewish Facilitator Conference in Nazareth. In 1997, he published landmark research with Dvora Feldash on exposing social problems through critical pedagogy, while also pioneering early studies on media literacy in Israel.',
+            'Throughout this period, Dr. Lemish held key academic leadership roles across Israeli higher education, serving as a faculty member, department chair, and academic director. His scholarship emphasized critical communication, qualitative research frameworks (including foundational co-authored studies with Prof. Dafna Lemish on media literacy in Israel), and school curriculum design based on praxis and power-control evaluation.\n\nA central theme of his work was social transformation and conflict: in 1989, he presented models for educational struggle and curriculum development at the Arab-Jewish Facilitator Conference in Nazareth. In 1997, he published landmark research with Dvora Feldash on exposing social problems through critical pedagogy, while also pioneering early studies on media literacy in Israel.',
           fullText:
-            'Throughout this period, Dr. Lemish held key academic leadership roles across Israeli higher education, serving as a faculty member, department chair, and academic director. His scholarship emphasized critical communication, qualitative research frameworks, and school curriculum design based on praxis and power-control evaluation.\n\nA central theme of his work was social transformation and conflict: in 1989, he presented models for educational struggle and curriculum development at the Arab-Jewish Facilitator Conference in Nazareth. In 1997, he published landmark research with Dvora Feldash on exposing social problems through critical pedagogy, while also pioneering early studies on media literacy in Israel.',
+            'Throughout this period, Dr. Lemish held key academic leadership roles across Israeli higher education, serving as a faculty member, department chair, and academic director. His scholarship emphasized critical communication, qualitative research frameworks (including foundational co-authored studies with Prof. Dafna Lemish on media literacy in Israel), and school curriculum design based on praxis and power-control evaluation.\n\nA central theme of his work was social transformation and conflict: in 1989, he presented models for educational struggle and curriculum development at the Arab-Jewish Facilitator Conference in Nazareth. In 1997, he published landmark research with Dvora Feldash on exposing social problems through critical pedagogy, while also pioneering early studies on media literacy in Israel.',
           tags: ['Critical Pedagogy', 'Higher Education', 'Media Literacy', 'Nazareth Conference 1989', 'Qualitative Methods', 'Dvora Feldash'],
         },
         {
@@ -869,7 +869,7 @@ export const siteContent = {
             'Published in the international volume Children and Media in Times of War and Conflict, this chapter demonstrates how television for young audiences can move beyond sensationalism to scaffold understanding of conflict de-escalation, empathy, and peaceful coexistence across cultural divides.',
           tags: ['Conflict Resolution', 'Peace Education', 'Children and Media', 'Television Framing'],
           citation:
-            'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
+            'Lemish, P. (2007). Developing children’s understanding of conflict resolution through quality television. In D. Lemish, M. Götz, & B. Dervin (Eds.), Children and Media in Times of War and Conflict (pp. 215-236). Hampton Press.',
           pdfUrl: '/files/publications/pub-2-conflict-resolution-children-tv.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Conflict_Resolution_Through_Quality_Television_2007.pdf',
           externalUrl: 'https://scholar.google.com/scholar?q=Developing+children%27s+understanding+of+conflict+resolution+through+quality+television+Peter+Lemish',
@@ -908,10 +908,10 @@ export const siteContent = {
           abstract:
             'This study explores intercultural musical collaboration as an active form of political communication and civic dialogue. By focusing on joint musical projects between Israeli and Iranian performers in Toronto, the paper demonstrates how engaged musicking can bridge geopolitical divides, foster mutual understanding, and create counter-narratives to state conflict.',
           fullAbstract:
-            'This chapter investigates live intercultural music performances as potent arenas of civic resistance and political communication. Dr. Lemish documents how Israeli and Iranian musicians challenge state-sponsored animosity, replacing it with an embodied dialogue of sonic harmony and mutual respect.',
-          tags: ['Political Communication', 'Engaged Musicking', 'Intercultural Dialogue', 'Peacebuilding'],
+            'Co-authored by Dr. Peter Lemish with Noam Lemish, Parisa Sabet, and Dan Deutsch, this chapter investigates live intercultural music performances as potent arenas of civic resistance. The authors document how Israeli and Iranian musicians challenge state-sponsored animosity, replacing it with an embodied dialogue of sonic harmony and mutual respect.',
+          tags: ['Political Communication', 'Engaged Musicking', 'Intercultural Dialogue', 'Noam Lemish (Co-author)'],
           citation:
-            'Lemish, P., et al. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
+            'Lemish, P., Lemish, N., Sabet, P., & Deutsch, D. (2017). "In Toronto, Iranians and Israelis Make Music, Not War": Political Communication via Engaged Musicking. In U. Onyebadi (Ed.), Music as a Platform for Political Communication (pp. 127-148). IGI Global.',
           pdfUrl: '/files/publications/pub-4-iranians-israelis-make-music.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Iranians_and_Israelis_Make_Music_Not_War_2017.pdf',
           externalUrl: 'https://doi.org/10.4018/978-1-5225-1986-7.ch007',
@@ -925,14 +925,14 @@ export const siteContent = {
           year: 2018,
           title: 'A much debated consensus: Media literacy in Israel',
           englishTitle: 'A much debated consensus: Media literacy in Israel',
-          publisher: 'Media Literacy Around the World (pp. 213–228)',
+          publisher: 'Media Literacy Around the World (co-authored with Prof. Dafna Lemish, pp. 213–228)',
           abstract:
             'This chapter traces the emergence, policy debates, and institutional adoption of media literacy education in Israel. It analyzes how critical media pedagogy was introduced into school curricula to empower students to interrogate media messages, address societal divisions, and participate actively in democratic life.',
           fullAbstract:
-            'This definitive chapter details the historical evolution of media literacy in Israel from grassroots educational experiments to accredited matriculation curricula. It explores tensions between corporate broadcast dominance, national ideologies, and democratic empowerment.',
-          tags: ['Media Literacy', 'Critical Pedagogy', 'Educational Reform', 'Democratic Pedagogy'],
+            'Co-authored by Dr. Peter Lemish and Prof. Dafna Lemish, this definitive chapter details the historical evolution of media literacy in Israel from grassroots educational experiments to accredited matriculation curricula. It explores tensions between corporate broadcast dominance, national ideologies, and democratic empowerment.',
+          tags: ['Media Literacy', 'Critical Pedagogy', 'Educational Reform', 'Prof. Dafna Lemish (Co-author)'],
           citation:
-            'Lemish, P. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
+            'Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).',
           pdfUrl: '/files/publications/pub-5-media-literacy-in-israel.pdf',
           pdfFileName: 'Dr_Peter_Lemish_Media_Literacy_in_Israel_2018.pdf',
           externalUrl: 'https://scholar.google.com/scholar?q=A+much+debated+consensus%3A+Media+literacy+in+Israel+Peter+Lemish',
@@ -1128,9 +1128,9 @@ export const siteContent = {
         {
           id: 'partners-1',
           name: 'Scholarly & Civic Collaborators',
-          role: 'Dvora Feldash, Dr. Uche Onyebadi, and the Sparrow Coalition for Social Justice',
+          role: 'Academic Co-Authors: Prof. Dafna Lemish, Noam Lemish, Dvora Feldash, Dr. Uche Onyebadi, and the Sparrow Coalition',
           quote:
-            'Dr. Lemish’s scholarship uniquely bridged rigorous academic inquiry and courageous civic praxis: from pioneering critical pedagogy and media literacy frameworks, to leading intercultural peace dialogues, and co-organizing the major 2014 university-community symposium on race, policing, and environmental justice in Southern Illinois.',
+            'Dr. Lemish’s scholarship integrated meaningful collaborative interfaces within his research agenda: from co-authoring foundational media literacy studies with Prof. Dafna Lemish, to analyzing intercultural political communication and engaged musicking with Noam Lemish, critical pedagogy with Dvora Feldash, and co-organizing the major 2014 Ferguson symposium on race, policing, and community rights in Southern Illinois.',
           location: 'Israel, Canada, USA',
         },
       ],

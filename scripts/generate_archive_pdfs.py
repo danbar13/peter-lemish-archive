@@ -136,7 +136,7 @@ def create_cv_pdf():
     elements.append(Paragraph("4. SELECTED PEER-REVIEWED PUBLICATIONS", h2_style))
     pubs = [
         "Lemish, P. (2003). Civic and citizenship education in Israel. <i>Cambridge Journal of Education</i>, 33(1), 53–72.",
-        "Lemish, P. (2007). Developing children's understanding of conflict resolution through quality television. In <i>Children and Media in Times of War and Conflict</i> (pp. 215–236). Hampton Press.",
+        "Lemish, P. (2007). Developing children's understanding of conflict resolution through quality television. In D. Lemish, M. Götz, & B. Dervin (Eds.), Children and Media in Times of War and Conflict (pp. 215–236). Hampton Press.",
         "Lemish, P. (2011). The Transgressive Posture: Insights from Nano Discourse into the Ontology of Being a Transgressor. <i>Academic Quarter</i>, 3, 17–31.",
         "Lemish, P., Lemish, N., Sabet, P., & Deutsch, D. (2017). 'In Toronto, Iranians and Israelis Make Music, Not War': Political Communication via Engaged Musicking. In <i>Music as a Platform for Political Communication</i> (pp. 127–148). IGI Global.",
         "Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In <i>Media Literacy Around the World</i> (pp. 213–228).",
@@ -194,8 +194,8 @@ publications_meta = [
         "file": "pub-5-media-literacy-in-israel.pdf",
         "title": "A Much Debated Consensus: Media Literacy in Israel",
         "year": "2001 / 2018",
-        "publisher": "Media Literacy Around the World, pp. 213–228",
-        "citation": "Lemish, P. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).",
+        "publisher": "Media Literacy Around the World (with Prof. Dafna Lemish, pp. 213–228)",
+        "citation": "Lemish, P., & Lemish, D. (2001/2018). A much debated consensus: Media literacy in Israel. In Media Literacy Around the World (pp. 213-228).",
         "abstract": "A foundational study tracing the emergence, political debates, and institutional adoption of media literacy education in Israel. It evaluates how critical media pedagogy was introduced into school curricula to empower students to interrogate media representations and participate in democratic life.",
         "findings": "The study reveals the creative tension between official state curricular aims (which sought patriotic consensus) and critical media education (which trains youth to deconstruct media power, bias, and structural exclusion)."
     },
