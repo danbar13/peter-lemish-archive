@@ -7,13 +7,21 @@ import {
   FileDown,
   Accessibility,
   BookOpen,
+  Moon,
+  Sun,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAccessibility } from '../context/AccessibilityContext';
 
 export const Navbar = () => {
   const { t, lang, toggleLang, isRTL } = useLanguage();
-  const { setIsCvModalOpen, setIsAccessibilityModalOpen, isAccessibilityModalOpen } = useAccessibility();
+  const {
+    setIsCvModalOpen,
+    setIsAccessibilityModalOpen,
+    isAccessibilityModalOpen,
+    darkMode,
+    toggleDarkMode,
+  } = useAccessibility();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -92,8 +100,23 @@ export const Navbar = () => {
               ))}
             </nav>
 
-            {/* Actions: CV, Accessibility, Language Switch */}
+            {/* Actions: Theme Toggle, CV, Accessibility, Language Switch */}
             <div className="hidden sm:flex items-center gap-2.5">
+              {/* Luxurious Dark Theme Quick Toggle */}
+              <button
+                type="button"
+                onClick={toggleDarkMode}
+                aria-label={darkMode ? (isRTL ? 'מעבר למצב בהיר' : 'Switch to Light Mode') : (isRTL ? 'מעבר למצב חשוך יוקרתי' : 'Switch to Dark Mode')}
+                title={darkMode ? (isRTL ? 'מצב בהיר' : 'Light Theme') : (isRTL ? 'מצב חשוך יוקרתי' : 'Luxurious Dark Mode')}
+                className="p-2 rounded-lg text-xs font-bold bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:outline-none flex items-center justify-center"
+              >
+                {darkMode ? (
+                  <Sun className="w-4 h-4 text-amber-400" aria-hidden="true" />
+                ) : (
+                  <Moon className="w-4 h-4 text-blue-900" aria-hidden="true" />
+                )}
+              </button>
+
               {/* CV Button */}
               <button
                 type="button"
@@ -129,6 +152,14 @@ export const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <div className="flex sm:hidden items-center gap-2">
+              <button
+                type="button"
+                onClick={toggleDarkMode}
+                aria-label={darkMode ? 'Light Theme' : 'Dark Theme'}
+                className="p-2 rounded-lg bg-slate-100 border border-slate-200 text-slate-800 focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:outline-none"
+              >
+                {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-blue-900" />}
+              </button>
               <button
                 type="button"
                 onClick={toggleLang}

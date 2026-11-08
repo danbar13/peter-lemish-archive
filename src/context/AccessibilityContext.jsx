@@ -10,10 +10,40 @@ export const AccessibilityProvider = ({ children }) => {
   const [highlightLinks, setHighlightLinks] = useState(false);
   const [readingRuler, setReadingRuler] = useState(false);
 
+  // Luxurious Dark Mode
+  const [darkMode, setDarkMode] = useState(() => {
+    try {
+      const saved = localStorage.getItem('lemish_theme');
+      return saved === 'dark';
+    } catch {
+      return false;
+    }
+  });
+
   // Modals
   const [isAccessibilityModalOpen, setIsAccessibilityModalOpen] = useState(false);
   const [isStatementModalOpen, setIsStatementModalOpen] = useState(false);
   const [isCvModalOpen, setIsCvModalOpen] = useState(false);
+
+  // Apply dark mode class
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+      document.body.classList.add('dark-theme');
+    } else {
+      document.documentElement.classList.remove('dark');
+      document.body.classList.remove('dark-theme');
+    }
+    try {
+      localStorage.setItem('lemish_theme', darkMode ? 'dark' : 'light');
+    } catch {
+      // storage unavailable
+    }
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode((prev) => !prev);
+  };
 
   // Apply font scale to document element
   useEffect(() => {
@@ -65,6 +95,7 @@ export const AccessibilityProvider = ({ children }) => {
     setDyslexiaFont(false);
     setHighlightLinks(false);
     setReadingRuler(false);
+    setDarkMode(false);
   };
 
   return (
@@ -82,6 +113,9 @@ export const AccessibilityProvider = ({ children }) => {
         setHighlightLinks,
         readingRuler,
         setReadingRuler,
+        darkMode,
+        setDarkMode,
+        toggleDarkMode,
         resetAll,
         isAccessibilityModalOpen,
         setIsAccessibilityModalOpen,

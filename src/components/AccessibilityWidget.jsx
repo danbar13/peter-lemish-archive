@@ -7,6 +7,8 @@ import {
   ZoomOut,
   RotateCcw,
   Contrast,
+  Moon,
+  Sun,
   Type,
   Link as LinkIcon,
   Ruler,
@@ -23,6 +25,9 @@ export const AccessibilityWidget = () => {
     resetFont,
     highContrast,
     setHighContrast,
+    darkMode,
+    setDarkMode,
+    toggleDarkMode,
     dyslexiaFont,
     setDyslexiaFont,
     highlightLinks,
@@ -60,7 +65,7 @@ export const AccessibilityWidget = () => {
 
   return (
     <>
-      {/* Floating launcher button */}
+      {/* Floating launcher button (compact icon-only to never obstruct content) */}
       <button
         ref={toggleBtnRef}
         type="button"
@@ -68,10 +73,10 @@ export const AccessibilityWidget = () => {
         aria-label={t.accessibility.title}
         aria-expanded={isAccessibilityModalOpen}
         aria-controls="accessibility-drawer"
-        className="fixed bottom-6 start-6 z-40 flex items-center gap-2 px-4 py-3 bg-blue-900 text-white rounded-full shadow-2xl hover:bg-blue-800 active:scale-95 transition-all duration-200 border-2 border-white/60 focus-visible:ring-4 focus-visible:ring-amber-500 focus-visible:outline-none"
+        title={t.accessibility.title}
+        className="fixed bottom-5 start-5 z-40 w-12 h-12 flex items-center justify-center bg-blue-900 hover:bg-blue-800 text-white rounded-full shadow-2xl active:scale-95 transition-all duration-200 border-2 border-white/80 focus-visible:ring-4 focus-visible:ring-amber-500 focus-visible:outline-none"
       >
-        <Accessibility className="w-6 h-6 animate-pulse" aria-hidden="true" />
-        <span className="font-semibold text-sm hidden sm:inline">{t.nav.accessibilityBtn}</span>
+        <Accessibility className="w-6 h-6" aria-hidden="true" />
       </button>
 
       {/* Slide-out Accessibility Drawer */}
@@ -146,6 +151,34 @@ export const AccessibilityWidget = () => {
                 </button>
               </div>
             </div>
+
+            {/* Luxurious Dark Theme */}
+            <button
+              type="button"
+              onClick={toggleDarkMode}
+              className={`w-full flex items-center justify-between p-3 rounded-xl border text-sm font-semibold transition-colors focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:outline-none ${
+                darkMode
+                  ? 'bg-slate-900 text-amber-300 border-amber-500/80 shadow-md'
+                  : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-200'
+              }`}
+              aria-pressed={darkMode}
+            >
+              <div className="flex items-center gap-2.5">
+                {darkMode ? (
+                  <Moon className="w-4 h-4 text-amber-400" aria-hidden="true" />
+                ) : (
+                  <Sun className="w-4 h-4 text-blue-900" aria-hidden="true" />
+                )}
+                <span>{isRTL ? 'מצב חשוך יוקרתי' : 'Luxurious Dark Mode'}</span>
+              </div>
+              <span
+                className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${
+                  darkMode ? 'bg-amber-500 border-amber-500 text-slate-950' : 'border-slate-400'
+                }`}
+              >
+                {darkMode && <span className="block w-2.5 h-2.5 bg-slate-950 rounded-full" />}
+              </span>
+            </button>
 
             {/* High Contrast */}
             <button

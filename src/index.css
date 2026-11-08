@@ -17,6 +17,127 @@
     font-size: 1.125rem; /* 18px base font size */
     margin: 0;
     padding: 0;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* ========================================================
+     LUXURIOUS DARK THEME (מצב חשוך יוקרתי, קטיפתי ונעים לעין)
+     ======================================================== */
+  body.dark-theme {
+    background-color: #0b1120 !important;
+    color: #cbd5e1 !important;
+  }
+
+  /* Header / Navbar */
+  body.dark-theme header {
+    background-color: rgba(11, 17, 32, 0.95) !important;
+    border-color: rgba(51, 65, 85, 0.6) !important;
+  }
+
+  /* Sections & Backgrounds */
+  body.dark-theme section,
+  body.dark-theme main,
+  body.dark-theme footer {
+    background-color: #0b1120;
+  }
+
+  body.dark-theme .bg-slate-50 {
+    background-color: #0f172a !important;
+  }
+
+  body.dark-theme .bg-white {
+    background-color: #151e32 !important;
+    border-color: rgba(71, 85, 105, 0.5) !important;
+  }
+
+  body.dark-theme .bg-slate-100 {
+    background-color: #1a2744 !important;
+  }
+
+  body.dark-theme .bg-slate-200 {
+    background-color: #243456 !important;
+  }
+
+  body.dark-theme .bg-blue-50 {
+    background-color: rgba(30, 58, 138, 0.3) !important;
+    border-color: rgba(59, 130, 246, 0.3) !important;
+  }
+
+  body.dark-theme .bg-amber-50 {
+    background-color: rgba(217, 119, 6, 0.2) !important;
+    border-color: rgba(245, 158, 11, 0.35) !important;
+  }
+
+  /* Borders */
+  body.dark-theme .border-slate-200,
+  body.dark-theme .border-slate-200\/80,
+  body.dark-theme .border-slate-200\/60,
+  body.dark-theme .border-slate-100 {
+    border-color: rgba(71, 85, 105, 0.5) !important;
+  }
+
+  /* Typography */
+  body.dark-theme h1,
+  body.dark-theme h2,
+  body.dark-theme h3,
+  body.dark-theme h4,
+  body.dark-theme .text-slate-950,
+  body.dark-theme .text-slate-900 {
+    color: #f8fafc !important;
+  }
+
+  body.dark-theme .text-slate-800,
+  body.dark-theme .text-slate-700 {
+    color: #e2e8f0 !important;
+  }
+
+  body.dark-theme .text-slate-600 {
+    color: #94a3b8 !important;
+  }
+
+  body.dark-theme .text-slate-500 {
+    color: #64748b !important;
+  }
+
+  body.dark-theme .text-blue-950,
+  body.dark-theme .text-blue-900 {
+    color: #93c5fd !important;
+  }
+
+  body.dark-theme .text-amber-700,
+  body.dark-theme .text-amber-800 {
+    color: #fbbf24 !important;
+  }
+
+  /* Shadows in Dark Theme */
+  body.dark-theme .shadow-xs,
+  body.dark-theme .shadow-sm,
+  body.dark-theme .shadow-md,
+  body.dark-theme .shadow-xl,
+  body.dark-theme .shadow-2xl {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* Form Elements in Dark Theme */
+  body.dark-theme input,
+  body.dark-theme select,
+  body.dark-theme textarea {
+    background-color: #0d1527 !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+  }
+
+  body.dark-theme input:focus,
+  body.dark-theme select:focus,
+  body.dark-theme textarea:focus {
+    border-color: #f59e0b !important;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25) !important;
+  }
+
+  /* Modals in Dark Theme */
+  body.dark-theme [role="dialog"] .bg-white {
+    background-color: #111a2e !important;
+    border-color: rgba(71, 85, 105, 0.6) !important;
   }
 
   /* High Contrast Mode overrides */
